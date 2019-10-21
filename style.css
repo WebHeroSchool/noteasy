@@ -1,0 +1,77 @@
+* {
+font-family: 'Dancing Script', cursive;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: #F5E9D9;
+}
+.background_image {
+  display: grid;
+  place-items: left;
+  color: black;
+  position: relative;
+  }
+.background_image::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(https://abcknit.ru/wp-content/uploads/2010/09/156.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: opacity(50%);
+  }
+  .text_main_inside {
+  position: relative;
+  font: bold 14px sans-serif;
+  padding: 20px;
+  }
+  h1 {
+    width: 250px;
+    margin-left: 20%;
+    color: black;
+    background-color: white;
+    font-family: 'Indie Flower', cursive;
+  }
+  h1:before, h1:after {
+content: "X";
+font-family: 'Dancing Script', cursive;
+color: #f7b21c;
+text-shadow: 1px 1px 2px grey;
+}
+  .first_article {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    float: left;
+    background-color: white;
+    border: solid 1px;
+  }
+  .second_article {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: solid 1px;
+    float: left;
+  }
+  .list-of-products {
+    text-align: center;
+    height: 150px;
+    float: left;
+    width: 150px;
+    background-color: white;
+    border: solid 1px;
+  }
+  .third_article {
+text-align: center;
+float: left;
+  }
+  .footer {
+  position: relative;
+  font: italic 10px sans-serif;
+  }
